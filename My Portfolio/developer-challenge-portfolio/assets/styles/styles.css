@@ -231,8 +231,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .details a, .details a:link, .details a:active{
 		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
+		/* border: 2px solid white !important; */
 		background-color: #fff;
+		
 }
 
 .details a:hover, .details a:focus {
