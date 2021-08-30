@@ -148,6 +148,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 6em 4em 5.6em;
 }
 
+#experience ul {
+	margin: 0 auto;
+}
+
 #experience h2 {
 	color: #006666;
 	margin-bottom: .7em;
@@ -172,6 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
 }
+
 
 .experience-topics ul li {
 	list-style: none;
@@ -222,16 +227,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details p {
-	color: #738182;
+	color: #c4c7c7;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
 	margin-bottom: 1.8em;
+	padding: 5px;
 }
 
 .details a, .details a:link, .details a:active{
 		color: rgba(255, 103, 68, 0.91);
-		/* border: 2px solid white !important; */
+		border: 2px solid white !important;
 		background-color: #fff;
 		
 }

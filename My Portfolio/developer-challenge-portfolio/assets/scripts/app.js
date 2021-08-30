@@ -30,12 +30,13 @@ const Portfolio = function() {
 				weight: 7
 			}
 		];
+		console.log(words);
 		return words;
 	}
 
 	function makeWordCloud(words) {
 		$('.teaching-domains').jQCloud(words, {delay: 120});
-	}
+	};
 
 	function displayWordCloud() {
 		var count = 1;
@@ -48,11 +49,11 @@ const Portfolio = function() {
 				count++;
 			}
 		});
-	}
+	};
 
 	function designForm() {
 		$("#my-modal form").addClass("my-form");
-	}
+	};
 
 	function typeAnimation() {
 		Typed.new("#writing-text", {
@@ -70,7 +71,7 @@ const Portfolio = function() {
 			preStringTyped: function() {},
 			onStringTyped: function() {}
 		});
-	}
+	};
 
 	return {
 		displayWordCloud: displayWordCloud,
